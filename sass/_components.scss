@@ -1,11 +1,10 @@
 ///////////////////////
 //// Daniel
-
 .daniel {
     font-family: inherit;
     &_img {
         border-radius: 100px;
-        border: 1px solid white;
+        border: 1.6px solid papayawhip;
         height: 3rem;
         width: 3rem;
     
@@ -35,16 +34,11 @@
         width: 97%;
     }
 }
-
-
 ///////////////////////
 //// Jonathan Walters
-
-
 .jonathan {
     &_img {
         border-radius: 100px;
-        border: 1px solid white;
         height: 3rem;
         width: 3rem;
     }
@@ -71,5 +65,104 @@
         color: var(--Light-gray);
         opacity: 50%;
         width: 90%;
+    }
+}
+///////////////////////
+////  Kira
+.kira {
+    &_img {
+        border-radius: 100px;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    &_heading-5 {
+        font-size: 1.2rem;
+        color: var(--Very-dark-grayish-blue);
+    }
+
+    &_p-1 {
+        color: var(--Light-gray);
+    }
+
+    &_p-2 {
+        color: var(--Very-dark-grayish-blue);
+        grid-column: 1 / 3;
+        font-size: 1.7rem;
+    }
+
+    &_p-3 {
+        grid-column: 1 / 3;
+        font-size: 1.1rem;
+        color: var(--Very-dark-grayish-blue);
+        opacity: 70%;
+        width: 90%;
+    }
+}
+///////////////////////
+//// Jeanette
+.jeanette {
+    &_img {
+        border-radius: 100px;
+        height: 3rem;
+        width: 3rem;
+    }
+
+    &_heading-5 {
+        font-size: 1.2rem;
+        color: var(--Very-dark-grayish-blue);
+    }
+
+    &_p-1 {
+        color: var(--Light-gray);
+    }
+
+    &_p-2 {
+        color: var(--Very-dark-grayish-blue);
+        grid-column: 1 / 3;
+        font-size: 1.85rem;
+        width: 88%;
+    }
+
+    &_p-3 {
+        grid-column: 1 / 3;
+        font-size: 1.1rem;
+        color: var(--Very-dark-grayish-blue);
+        opacity: 70%;
+        width: 90%;
+    }
+}
+///////////////////////
+//// Patrick
+.patrick {
+    &_img {
+        border-radius: 100px;
+        border: 1.6px solid var(--Moderate-violet);
+        height: 3rem;
+        width: 3rem;
+    }
+
+    &_heading-5 {
+        font-size: 1.2rem;
+        color: var(--Light-gray);
+    }
+
+    &_p-1 {
+        color: var(--Light-gray);
+        opacity: 50%;
+    }
+
+    &_p-2 {
+        color: var(--White);
+        grid-column: 1 / 3;
+        font-size: 1.7rem;
+    }
+
+    &_p-3 {
+        grid-column: 1 / 3;
+        font-size: 1.1rem;
+        color: var(--Light-gray);
+        opacity: 50%;
+        width: 98%;
     }
 }
